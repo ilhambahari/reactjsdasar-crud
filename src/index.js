@@ -1,12 +1,16 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
+// import Lifecycle from './reactjsdasar/Lifecycle';
+// import App from './App';
+// import StateProps from './reactjsdasar/StateProps';
+// import Map from './reactjsdasar/Map';
+import 'bootstrap/dist/css/bootstrap.min.css';
 import reportWebVitals from './reportWebVitals';
+import Crud from './crud'
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <Crud />
   </React.StrictMode>,
   document.getElementById('root')
 );
